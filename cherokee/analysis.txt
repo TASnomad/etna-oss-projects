@@ -1,0 +1,620 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 97.52      0.39     0.39        1   390.07   400.08  cherokee_run
+  2.50      0.40     0.01 12006715     0.00     0.00  node_val
+  0.00      0.40     0.00     1787     0.00     0.00  my_isnum
+  0.00      0.40     0.00     1782     0.00     0.00  my_isalphanum
+  0.00      0.40     0.00     1601     0.00     0.00  my_isalpha
+  0.00      0.40     0.00     1270     0.00     0.00  my_isalpha_special
+  0.00      0.40     0.00     1237     0.00     0.00  match_str
+  0.00      0.40     0.00     1235     0.00     0.00  matchCRLF
+  0.00      0.40     0.00      517     0.00     0.00  valid_field_key
+  0.00      0.40     0.00      157     0.00     0.00  insert_node
+  0.00      0.40     0.00      155     0.00     0.00  create_node
+  0.00      0.40     0.00      102     0.00     0.00  createHttpLexeme
+  0.00      0.40     0.00      101     0.00     0.00  substring
+  0.00      0.40     0.00       98     0.00     0.00  append_alloc_string
+  0.00      0.40     0.00       51     0.00     0.00  create_header
+  0.00      0.40     0.00       47     0.00     0.00  isHeaderKey
+  0.00      0.40     0.00       46     0.00     0.00  isHeader
+  0.00      0.40     0.00       42     0.00     0.00  isHeaderValue
+  0.00      0.40     0.00       15     0.00     0.00  new_list
+  0.00      0.40     0.00       15     0.00     0.00  number_to_string
+  0.00      0.40     0.00       12     0.00     0.00  create_int
+  0.00      0.40     0.00        9     0.00     0.00  bsem_wait
+  0.00      0.40     0.00        6     0.00     0.00  bsem_post
+  0.00      0.40     0.00        6     0.00     0.00  insert_list
+  0.00      0.40     0.00        6     0.00     0.00  jobqueue_pull
+  0.00      0.40     0.00        6     0.00     0.00  jobqueue_push
+  0.00      0.40     0.00        6     0.00     0.00  pathname
+  0.00      0.40     0.00        6     0.00     0.00  thpool_add_work
+  0.00      0.40     0.00        5     0.00     0.00  cherokee_on_receive
+  0.00      0.40     0.00        5     0.00     0.00  cherokee_on_send
+  0.00      0.40     0.00        5     0.00     0.00  cherokee_router
+  0.00      0.40     0.00        5     0.00     0.00  create_router_dto_bundle
+  0.00      0.40     0.00        5     0.00     0.00  defaultStatusText
+  0.00      0.40     0.00        5     0.00     0.00  delete_client
+  0.00      0.40     0.00        5     0.00     0.00  delete_item_in_list
+  0.00      0.40     0.00        5     0.00     0.00  delete_node
+  0.00      0.40     0.00        5     0.00     0.00  init_response
+  0.00      0.40     0.00        5     0.00     0.00  request_size
+  0.00      0.40     0.00        5     0.00     0.00  response_headers_to_string
+  0.00      0.40     0.00        5     0.00     0.00  search_item_in_list
+  0.00      0.40     0.00        5     0.00     0.00  search_node
+  0.00      0.40     0.00        4     0.00     0.00  create_request_from_raw
+  0.00      0.40     0.00        4     0.00     0.00  create_response
+  0.00      0.40     0.00        4     0.00     0.00  end_request
+  0.00      0.40     0.00        4     0.00     0.00  filesize
+  0.00      0.40     0.00        4     0.00     0.00  get_route_by_path
+  0.00      0.40     0.00        4     0.00     0.00  isCRLF
+  0.00      0.40     0.00        4     0.00     0.00  isHeaderList
+  0.00      0.40     0.00        4     0.00     0.00  isHttpVersion
+  0.00      0.40     0.00        4     0.00     0.00  isMethod
+  0.00      0.40     0.00        4     0.00     0.00  isPath
+  0.00      0.40     0.00        4     0.00     0.00  isRelativePath
+  0.00      0.40     0.00        4     0.00     0.00  lexeme_to_request
+  0.00      0.40     0.00        4     0.00     0.00  parse_request
+  0.00      0.40     0.00        4     0.00     0.00  route_comparator
+  0.00      0.40     0.00        4     0.00     0.00  thread_init
+  0.00      0.40     0.00        3     0.00     0.00  get_absolute_path
+  0.00      0.40     0.00        3     0.00     0.00  isBody
+  0.00      0.40     0.00        3     0.00     0.00  is_file_exist
+  0.00      0.40     0.00        1     0.00     0.00  accept_conn
+  0.00      0.40     0.00        1     0.00     0.00  bsem_init
+  0.00      0.40     0.00        1     0.00     0.00  cherokee_create_instance
+  0.00      0.40     0.00        1     0.00     0.00  create_server_socket
+  0.00      0.40     0.00        1     0.00     0.00  delete_response
+  0.00      0.40     0.00        1     0.00     0.00  home_route
+  0.00      0.40     0.00        1     0.00     0.00  is_method_handled
+  0.00      0.40     0.00        1     0.00     0.00  jobqueue_init
+  0.00      0.40     0.00        1     0.00     0.00  method_comparator
+  0.00      0.40     0.00        1     0.00     0.00  read_cherokee_config
+  0.00      0.40     0.00        1     0.00     0.00  success
+  0.00      0.40     0.00        1     0.00     0.00  thpool_init
+  0.00      0.40     0.00        1     0.00     0.00  toResponseString
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 2.50% of 0.40 seconds
+
+index % time    self  children    called     name
+                0.39    0.01       1/1           main [2]
+[1]    100.0    0.39    0.01       1         cherokee_run [1]
+                0.01    0.00 12006715/12006715     node_val [3]
+                0.00    0.00       7/12          create_int [23]
+                0.00    0.00       6/6           thpool_add_work [30]
+                0.00    0.00       5/5           create_router_dto_bundle [34]
+                0.00    0.00       5/5           delete_item_in_list [37]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]    100.0    0.00    0.40                 main [2]
+                0.39    0.01       1/1           cherokee_run [1]
+                0.00    0.00       1/1           cherokee_create_instance [64]
+-----------------------------------------------
+                0.01    0.00 12006715/12006715     cherokee_run [1]
+[3]      2.5    0.01    0.00 12006715         node_val [3]
+-----------------------------------------------
+[4]      0.0    0.00    0.00       4+131     <cycle 1 as a whole> [4]
+                0.00    0.00      47             isHeaderKey <cycle 1> [18]
+                0.00    0.00      46             isHeader <cycle 1> [19]
+                0.00    0.00      42             isHeaderValue <cycle 1> [20]
+-----------------------------------------------
+                0.00    0.00       8/1787        isHttpVersion [51]
+                0.00    0.00    1779/1787        my_isalphanum [6]
+[5]      0.0    0.00    0.00    1787         my_isnum [5]
+-----------------------------------------------
+                0.00    0.00     514/1782        valid_field_key [11]
+                0.00    0.00    1268/1782        my_isalpha_special [8]
+[6]      0.0    0.00    0.00    1782         my_isalphanum [6]
+                0.00    0.00    1779/1787        my_isnum [5]
+                0.00    0.00    1601/1601        my_isalpha [7]
+-----------------------------------------------
+                0.00    0.00    1601/1601        my_isalphanum [6]
+[7]      0.0    0.00    0.00    1601         my_isalpha [7]
+-----------------------------------------------
+                0.00    0.00    1270/1270        isHeaderValue <cycle 1> [20]
+[8]      0.0    0.00    0.00    1270         my_isalpha_special [8]
+                0.00    0.00    1268/1782        my_isalphanum [6]
+-----------------------------------------------
+                0.00    0.00       4/1237        isMethod [52]
+                0.00    0.00       4/1237        isHttpVersion [51]
+                0.00    0.00    1229/1237        matchCRLF [10]
+[9]      0.0    0.00    0.00    1237         match_str [9]
+-----------------------------------------------
+                0.00    0.00       4/1235        isCRLF [49]
+                0.00    0.00       8/1235        isHttpVersion [51]
+                0.00    0.00    1223/1235        isHeaderValue <cycle 1> [20]
+[10]     0.0    0.00    0.00    1235         matchCRLF [10]
+                0.00    0.00    1229/1237        match_str [9]
+-----------------------------------------------
+                0.00    0.00     517/517         isHeaderKey <cycle 1> [18]
+[11]     0.0    0.00    0.00     517         valid_field_key [11]
+                0.00    0.00     514/1782        my_isalphanum [6]
+-----------------------------------------------
+                0.00    0.00       4/157         isMethod [52]
+                0.00    0.00       4/157         isHttpVersion [51]
+                0.00    0.00       4/157         isRelativePath [54]
+                0.00    0.00       4/157         isBody [60]
+                0.00    0.00       7/157         insert_list [26]
+                0.00    0.00       8/157         create_response [45]
+                0.00    0.00      42/157         isHeaderKey <cycle 1> [18]
+                0.00    0.00      42/157         isHeaderValue <cycle 1> [20]
+                0.00    0.00      42/157         lexeme_to_request [55]
+[12]     0.0    0.00    0.00     157         insert_node [12]
+-----------------------------------------------
+                0.00    0.00       3/155         isMethod [52]
+                0.00    0.00       3/155         isHttpVersion [51]
+                0.00    0.00       4/155         isRelativePath [54]
+                0.00    0.00       4/155         isBody [60]
+                0.00    0.00       7/155         insert_list [26]
+                0.00    0.00       8/155         create_response [45]
+                0.00    0.00      41/155         isHeaderValue <cycle 1> [20]
+                0.00    0.00      42/155         isHeaderKey <cycle 1> [18]
+                0.00    0.00      43/155         lexeme_to_request [55]
+[13]     0.0    0.00    0.00     155         create_node [13]
+-----------------------------------------------
+                0.00    0.00       4/102         isMethod [52]
+                0.00    0.00       4/102         isHttpVersion [51]
+                0.00    0.00       4/102         isRelativePath [54]
+                0.00    0.00       4/102         isBody [60]
+                0.00    0.00      43/102         isHeaderKey <cycle 1> [18]
+                0.00    0.00      43/102         isHeaderValue <cycle 1> [20]
+[14]     0.0    0.00    0.00     102         createHttpLexeme [14]
+-----------------------------------------------
+                0.00    0.00       3/101         isBody [60]
+                0.00    0.00       4/101         isMethod [52]
+                0.00    0.00       4/101         isHttpVersion [51]
+                0.00    0.00       4/101         isRelativePath [54]
+                0.00    0.00      43/101         isHeaderKey <cycle 1> [18]
+                0.00    0.00      43/101         isHeaderValue <cycle 1> [20]
+[15]     0.0    0.00    0.00     101         substring [15]
+-----------------------------------------------
+                0.00    0.00      26/98          toResponseString [74]
+                0.00    0.00      72/98          response_headers_to_string [41]
+[16]     0.0    0.00    0.00      98         append_alloc_string [16]
+-----------------------------------------------
+                0.00    0.00       8/51          create_response [45]
+                0.00    0.00      43/51          lexeme_to_request [55]
+[17]     0.0    0.00    0.00      51         create_header [17]
+-----------------------------------------------
+                                  47             isHeader <cycle 1> [19]
+[18]     0.0    0.00    0.00      47         isHeaderKey <cycle 1> [18]
+                0.00    0.00     517/517         valid_field_key [11]
+                0.00    0.00      43/101         substring [15]
+                0.00    0.00      43/102         createHttpLexeme [14]
+                0.00    0.00      42/155         create_node [13]
+                0.00    0.00      42/157         insert_node [12]
+                                  42             isHeaderValue <cycle 1> [20]
+-----------------------------------------------
+                                  42             isHeaderValue <cycle 1> [20]
+                0.00    0.00       4/4           isHeaderList [50]
+[19]     0.0    0.00    0.00      46         isHeader <cycle 1> [19]
+                                  47             isHeaderKey <cycle 1> [18]
+-----------------------------------------------
+                                  42             isHeaderKey <cycle 1> [18]
+[20]     0.0    0.00    0.00      42         isHeaderValue <cycle 1> [20]
+                0.00    0.00    1270/1270        my_isalpha_special [8]
+                0.00    0.00    1223/1235        matchCRLF [10]
+                0.00    0.00      43/101         substring [15]
+                0.00    0.00      43/102         createHttpLexeme [14]
+                0.00    0.00      42/157         insert_node [12]
+                0.00    0.00      41/155         create_node [13]
+                0.00    0.00       4/4           isCRLF [49]
+                                  42             isHeader <cycle 1> [19]
+-----------------------------------------------
+                0.00    0.00       1/15          create_route [85]
+                0.00    0.00       2/15          cherokee_create_instance [64]
+                0.00    0.00       4/15          parse_request [56]
+                0.00    0.00       4/15          lexeme_to_request [55]
+                0.00    0.00       4/15          create_response [45]
+[21]     0.0    0.00    0.00      15         new_list [21]
+-----------------------------------------------
+                0.00    0.00       2/15          toResponseString [74]
+                0.00    0.00       5/15          response_headers_to_string [41]
+                0.00    0.00       8/15          create_response [45]
+[22]     0.0    0.00    0.00      15         number_to_string [22]
+-----------------------------------------------
+                0.00    0.00       5/12          accept_conn [62]
+                0.00    0.00       7/12          cherokee_run [1]
+[23]     0.0    0.00    0.00      12         create_int [23]
+-----------------------------------------------
+                0.00    0.00       9/9           thread_do [122]
+[24]     0.0    0.00    0.00       9         bsem_wait [24]
+-----------------------------------------------
+                0.00    0.00       6/6           jobqueue_push [28]
+[25]     0.0    0.00    0.00       6         bsem_post [25]
+-----------------------------------------------
+                0.00    0.00       1/6           create_route [85]
+                0.00    0.00       1/6           cherokee_init_routes [78]
+                0.00    0.00       4/6           accept_conn [62]
+[26]     0.0    0.00    0.00       6         insert_list [26]
+                0.00    0.00       7/155         create_node [13]
+                0.00    0.00       7/157         insert_node [12]
+-----------------------------------------------
+                0.00    0.00       6/6           thread_do [122]
+[27]     0.0    0.00    0.00       6         jobqueue_pull [27]
+-----------------------------------------------
+                0.00    0.00       6/6           thpool_add_work [30]
+[28]     0.0    0.00    0.00       6         jobqueue_push [28]
+                0.00    0.00       6/6           bsem_post [25]
+-----------------------------------------------
+                0.00    0.00       3/6           is_file_exist [61]
+                0.00    0.00       3/6           get_absolute_path [59]
+[29]     0.0    0.00    0.00       6         pathname [29]
+-----------------------------------------------
+                0.00    0.00       6/6           cherokee_run [1]
+[30]     0.0    0.00    0.00       6         thpool_add_work [30]
+                0.00    0.00       6/6           jobqueue_push [28]
+-----------------------------------------------
+                0.00    0.00       5/5           cherokee_router [33]
+[31]     0.0    0.00    0.00       5         cherokee_on_receive [31]
+-----------------------------------------------
+                0.00    0.00       1/5           cherokee_router [33]
+                0.00    0.00       4/5           end_request [46]
+[32]     0.0    0.00    0.00       5         cherokee_on_send [32]
+                0.00    0.00       5/5           response_headers_to_string [41]
+                0.00    0.00       1/1           toResponseString [74]
+-----------------------------------------------
+                0.00    0.00       5/5           thread_do [122]
+[33]     0.0    0.00    0.00       5         cherokee_router [33]
+                0.00    0.00       5/5           init_response [39]
+                0.00    0.00       5/5           request_size [40]
+                0.00    0.00       5/5           cherokee_on_receive [31]
+                0.00    0.00       4/4           create_response [45]
+                0.00    0.00       4/4           end_request [46]
+                0.00    0.00       4/4           create_request_from_raw [44]
+                0.00    0.00       4/4           get_route_by_path [48]
+                0.00    0.00       3/3           is_file_exist [61]
+                0.00    0.00       3/3           get_absolute_path [59]
+                0.00    0.00       1/1           is_method_handled [68]
+                0.00    0.00       1/1           home_route [67]
+                0.00    0.00       1/5           cherokee_on_send [32]
+                0.00    0.00       1/1           delete_response [66]
+-----------------------------------------------
+                0.00    0.00       5/5           cherokee_run [1]
+[34]     0.0    0.00    0.00       5         create_router_dto_bundle [34]
+-----------------------------------------------
+                0.00    0.00       1/5           success [72]
+                0.00    0.00       4/5           create_response [45]
+[35]     0.0    0.00    0.00       5         defaultStatusText [35]
+-----------------------------------------------
+                0.00    0.00       5/5           delete_node [38]
+[36]     0.0    0.00    0.00       5         delete_client [36]
+-----------------------------------------------
+                0.00    0.00       5/5           cherokee_run [1]
+[37]     0.0    0.00    0.00       5         delete_item_in_list [37]
+                0.00    0.00       5/5           delete_node [38]
+-----------------------------------------------
+                0.00    0.00       5/5           delete_item_in_list [37]
+[38]     0.0    0.00    0.00       5         delete_node [38]
+                0.00    0.00       5/5           delete_client [36]
+-----------------------------------------------
+                0.00    0.00       5/5           cherokee_router [33]
+[39]     0.0    0.00    0.00       5         init_response [39]
+-----------------------------------------------
+                0.00    0.00       5/5           cherokee_router [33]
+[40]     0.0    0.00    0.00       5         request_size [40]
+-----------------------------------------------
+                0.00    0.00       5/5           cherokee_on_send [32]
+[41]     0.0    0.00    0.00       5         response_headers_to_string [41]
+                0.00    0.00      72/98          append_alloc_string [16]
+                0.00    0.00       5/15          number_to_string [22]
+-----------------------------------------------
+                0.00    0.00       1/5           is_method_handled [68]
+                0.00    0.00       4/5           get_route_by_path [48]
+[42]     0.0    0.00    0.00       5         search_item_in_list [42]
+                0.00    0.00       5/5           search_node [43]
+-----------------------------------------------
+                0.00    0.00       5/5           search_item_in_list [42]
+[43]     0.0    0.00    0.00       5         search_node [43]
+                0.00    0.00       4/4           route_comparator [57]
+                0.00    0.00       1/1           method_comparator [70]
+-----------------------------------------------
+                0.00    0.00       4/4           cherokee_router [33]
+[44]     0.0    0.00    0.00       4         create_request_from_raw [44]
+                0.00    0.00       4/4           parse_request [56]
+                0.00    0.00       4/4           lexeme_to_request [55]
+-----------------------------------------------
+                0.00    0.00       4/4           cherokee_router [33]
+[45]     0.0    0.00    0.00       4         create_response [45]
+                0.00    0.00       8/15          number_to_string [22]
+                0.00    0.00       8/51          create_header [17]
+                0.00    0.00       8/155         create_node [13]
+                0.00    0.00       8/157         insert_node [12]
+                0.00    0.00       4/15          new_list [21]
+                0.00    0.00       4/5           defaultStatusText [35]
+                0.00    0.00       3/4           filesize [47]
+-----------------------------------------------
+                0.00    0.00       4/4           cherokee_router [33]
+[46]     0.0    0.00    0.00       4         end_request [46]
+                0.00    0.00       4/5           cherokee_on_send [32]
+-----------------------------------------------
+                0.00    0.00       1/4           read_cherokee_config [71]
+                0.00    0.00       3/4           create_response [45]
+[47]     0.0    0.00    0.00       4         filesize [47]
+-----------------------------------------------
+                0.00    0.00       4/4           cherokee_router [33]
+[48]     0.0    0.00    0.00       4         get_route_by_path [48]
+                0.00    0.00       4/5           search_item_in_list [42]
+-----------------------------------------------
+                0.00    0.00       4/4           isHeaderValue <cycle 1> [20]
+[49]     0.0    0.00    0.00       4         isCRLF [49]
+                0.00    0.00       4/1235        matchCRLF [10]
+                0.00    0.00       3/3           isBody [60]
+-----------------------------------------------
+                0.00    0.00       4/4           isHttpVersion [51]
+[50]     0.0    0.00    0.00       4         isHeaderList [50]
+                0.00    0.00       4/4           isHeader <cycle 1> [19]
+-----------------------------------------------
+                0.00    0.00       4/4           isRelativePath [54]
+[51]     0.0    0.00    0.00       4         isHttpVersion [51]
+                0.00    0.00       8/1787        my_isnum [5]
+                0.00    0.00       8/1235        matchCRLF [10]
+                0.00    0.00       4/1237        match_str [9]
+                0.00    0.00       4/101         substring [15]
+                0.00    0.00       4/102         createHttpLexeme [14]
+                0.00    0.00       4/157         insert_node [12]
+                0.00    0.00       4/4           isHeaderList [50]
+                0.00    0.00       3/155         create_node [13]
+-----------------------------------------------
+                0.00    0.00       4/4           parse_request [56]
+[52]     0.0    0.00    0.00       4         isMethod [52]
+                0.00    0.00       4/1237        match_str [9]
+                0.00    0.00       4/101         substring [15]
+                0.00    0.00       4/102         createHttpLexeme [14]
+                0.00    0.00       4/157         insert_node [12]
+                0.00    0.00       4/4           isPath [53]
+                0.00    0.00       3/155         create_node [13]
+-----------------------------------------------
+                0.00    0.00       4/4           isMethod [52]
+[53]     0.0    0.00    0.00       4         isPath [53]
+                0.00    0.00       4/4           isRelativePath [54]
+-----------------------------------------------
+                0.00    0.00       4/4           isPath [53]
+[54]     0.0    0.00    0.00       4         isRelativePath [54]
+                0.00    0.00       4/101         substring [15]
+                0.00    0.00       4/155         create_node [13]
+                0.00    0.00       4/102         createHttpLexeme [14]
+                0.00    0.00       4/157         insert_node [12]
+                0.00    0.00       4/4           isHttpVersion [51]
+-----------------------------------------------
+                0.00    0.00       4/4           create_request_from_raw [44]
+[55]     0.0    0.00    0.00       4         lexeme_to_request [55]
+                0.00    0.00      43/51          create_header [17]
+                0.00    0.00      43/155         create_node [13]
+                0.00    0.00      42/157         insert_node [12]
+                0.00    0.00       4/15          new_list [21]
+-----------------------------------------------
+                0.00    0.00       4/4           create_request_from_raw [44]
+[56]     0.0    0.00    0.00       4         parse_request [56]
+                0.00    0.00       4/15          new_list [21]
+                0.00    0.00       4/4           isMethod [52]
+-----------------------------------------------
+                0.00    0.00       4/4           search_node [43]
+[57]     0.0    0.00    0.00       4         route_comparator [57]
+-----------------------------------------------
+                0.00    0.00       4/4           thpool_init [73]
+[58]     0.0    0.00    0.00       4         thread_init [58]
+-----------------------------------------------
+                0.00    0.00       3/3           cherokee_router [33]
+[59]     0.0    0.00    0.00       3         get_absolute_path [59]
+                0.00    0.00       3/6           pathname [29]
+-----------------------------------------------
+                0.00    0.00       3/3           isCRLF [49]
+[60]     0.0    0.00    0.00       3         isBody [60]
+                0.00    0.00       4/155         create_node [13]
+                0.00    0.00       4/102         createHttpLexeme [14]
+                0.00    0.00       4/157         insert_node [12]
+                0.00    0.00       3/101         substring [15]
+-----------------------------------------------
+                0.00    0.00       3/3           cherokee_router [33]
+[61]     0.0    0.00    0.00       3         is_file_exist [61]
+                0.00    0.00       3/6           pathname [29]
+-----------------------------------------------
+                0.00    0.00       1/1           thread_do [122]
+[62]     0.0    0.00    0.00       1         accept_conn [62]
+                0.00    0.00       5/12          create_int [23]
+                0.00    0.00       4/6           insert_list [26]
+-----------------------------------------------
+                0.00    0.00       1/1           jobqueue_init [69]
+[63]     0.0    0.00    0.00       1         bsem_init [63]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[64]     0.0    0.00    0.00       1         cherokee_create_instance [64]
+                0.00    0.00       2/15          new_list [21]
+                0.00    0.00       1/1           create_server_socket [65]
+                0.00    0.00       1/1           read_cherokee_config [71]
+                0.00    0.00       1/1           thpool_init [73]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_create_instance [64]
+[65]     0.0    0.00    0.00       1         create_server_socket [65]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_router [33]
+[66]     0.0    0.00    0.00       1         delete_response [66]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_router [33]
+[67]     0.0    0.00    0.00       1         home_route [67]
+                0.00    0.00       1/1           success [72]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_router [33]
+[68]     0.0    0.00    0.00       1         is_method_handled [68]
+                0.00    0.00       1/5           search_item_in_list [42]
+-----------------------------------------------
+                0.00    0.00       1/1           thpool_init [73]
+[69]     0.0    0.00    0.00       1         jobqueue_init [69]
+                0.00    0.00       1/1           bsem_init [63]
+-----------------------------------------------
+                0.00    0.00       1/1           search_node [43]
+[70]     0.0    0.00    0.00       1         method_comparator [70]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_create_instance [64]
+[71]     0.0    0.00    0.00       1         read_cherokee_config [71]
+                0.00    0.00       1/4           filesize [47]
+-----------------------------------------------
+                0.00    0.00       1/1           home_route [67]
+[72]     0.0    0.00    0.00       1         success [72]
+                0.00    0.00       1/5           defaultStatusText [35]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_create_instance [64]
+[73]     0.0    0.00    0.00       1         thpool_init [73]
+                0.00    0.00       4/4           thread_init [58]
+                0.00    0.00       1/1           jobqueue_init [69]
+-----------------------------------------------
+                0.00    0.00       1/1           cherokee_on_send [32]
+[74]     0.0    0.00    0.00       1         toResponseString [74]
+                0.00    0.00      26/98          append_alloc_string [16]
+                0.00    0.00       2/15          number_to_string [22]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [62] accept_conn            [59] get_absolute_path       [7] my_isalpha
+  [16] append_alloc_string    [48] get_route_by_path       [8] my_isalpha_special
+  [63] bsem_init              [67] home_route              [6] my_isalphanum
+  [25] bsem_post              [39] init_response           [5] my_isnum
+  [24] bsem_wait              [26] insert_list            [21] new_list
+  [64] cherokee_create_instance [12] insert_node           [3] node_val
+  [31] cherokee_on_receive    [60] isBody                 [22] number_to_string
+  [32] cherokee_on_send       [49] isCRLF                 [56] parse_request
+  [33] cherokee_router        [19] isHeader               [29] pathname
+   [1] cherokee_run           [18] isHeaderKey            [71] read_cherokee_config
+  [14] createHttpLexeme       [50] isHeaderList           [40] request_size
+  [17] create_header          [20] isHeaderValue          [41] response_headers_to_string
+  [23] create_int             [51] isHttpVersion          [57] route_comparator
+  [13] create_node            [52] isMethod               [42] search_item_in_list
+  [44] create_request_from_raw [53] isPath                [43] search_node
+  [45] create_response        [54] isRelativePath         [15] substring
+  [34] create_router_dto_bundle [61] is_file_exist        [72] success
+  [65] create_server_socket   [68] is_method_handled      [30] thpool_add_work
+  [35] defaultStatusText      [69] jobqueue_init          [73] thpool_init
+  [36] delete_client          [27] jobqueue_pull          [58] thread_init
+  [37] delete_item_in_list    [28] jobqueue_push          [74] toResponseString
+  [38] delete_node            [55] lexeme_to_request      [11] valid_field_key
+  [66] delete_response        [10] matchCRLF               [4] <cycle 1>
+  [46] end_request             [9] match_str
+  [47] filesize               [70] method_comparator

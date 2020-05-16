@@ -1,0 +1,15 @@
+# Choix du jeu:
+
+
+Première proposition:
+	- Implémentation d'un side scroller 2D (type Mario)
+
+Seconde proposition:
+	- Implémentation d'un casse de brique
+
+
+# Choix de l'IDE
+
+Visual Studio Code
+
+Editeur de texte développé par Microsoft facilement modifiable et cross platform (Mac OS X, Linux, Windows)

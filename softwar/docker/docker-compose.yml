@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  softwar_srv:
+    image: debian:stretch
+    container_name: softwar_srv
+    # restart: always
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    command: ./server
+    volumes:
+      - '../src:/home/cocoestbelle/src'
+      - '../include:/home/cocoestbelle/include'

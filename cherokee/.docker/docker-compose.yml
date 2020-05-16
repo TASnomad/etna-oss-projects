@@ -1,0 +1,12 @@
+version: '3'
+services: 
+    web:
+        build: ../
+        ports: 
+            - 1111:1111
+        working_dir: /app
+        command: ./http-server
+    perf:
+        build: ./httpperf
+        depends_on: 
+            - web

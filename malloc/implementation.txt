@@ -1,0 +1,21 @@
+Malloc de barrea_m, briand_c
+
+1) Implementation
+
+Ce malloc implémente un algorithme "Firs fit":
+malloc recherchera le premier block ayant au moins la taille nécessaire pour l'allocation.
+
+Ce malloc est plus centré sur l'optimisation de l'utilisation des blocs mémoire, chaque appels de free() feront une fusion des blocks libres en un seul gros bloc mémoire, placé en début de liste.
+Cela permet pour les prochains appels malloc d'être plus rapide si la taille correspond au bloc.
+
+malloc(0) retourne un pointeur unique
+en cas d'erreurs de sbrk errno prend la valeur ENOMEM
+
+2) Avantages:
+
+  - Implémentation simple
+  - Optimisation des blocs mémoire existant
+
+3) Inconvénients:
+
+  - Les programmes utilisant beaucoup d'appels de malloc(), free(), etc... auront une performance plus basse dû aux nombres d'iérations lors des recherches de blocs

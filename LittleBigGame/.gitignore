@@ -1,0 +1,14 @@
+# vscode folder
+.vscode
+
+# binaries
+**/*.o
+**/*.dSYM/
+
+# Vim & mac os temp files
+**/.DS_Store
+**/*~
+**/*.swp
+**/*.swo
+**/*.map
+**/my_little_big_game
